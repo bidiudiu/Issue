@@ -1,0 +1,650 @@
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:20:45.989, 17979397318638, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 50139],[--endpoint, 127.0.0.1:050139],[--role, client],[--parentprocessid, 15080],[--diag, D:\projects\DevStudio\DevStudio.Core.UnitTest\log.host.19-07-03_13-20-45_59090_4.txt],[--tracelevel, 4],[--datacollectionport, 0],[--telemetryoptedin, false]
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:20:45.996, 17979397374057, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '15080'
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:20:46.032, 17979397735369, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:050139'
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:20:46.064, 17979398052492, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:050139
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:20:46.075, 17979398160573, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.088, 17979398287184, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:050139
+TpTrace Information: 0 : 28852, 7, 2019/07/03, 13:20:46.098, 17979398385939, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.098, 17979398391688, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.103, 17979398444635, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.104, 17979398451493, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.411, 17979401520020, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 2
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.532, 17979402734618, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\log.host.19-07-03_13-20-45_59090_4.txt"}}
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.533, 17979402738594, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.533, 17979402740053, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.544, 17979402852801, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll"
+]
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.545, 17979402855985, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.568, 17979403093221, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.568, 17979403095402, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.572, 17979403134179, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.581, 17979403225661, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\TestResults</ResultsDirectory>\r\n    <TargetPlatform>X86</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v2.0</TargetFrameworkVersion>\r\n    <TestAdaptersPaths>C:\\Users\\yize\\.nuget\\packages\\microsoft.codecoverage\\15.8.0\\build\\netstandard1.0\\</TestAdaptersPaths>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"Code Coverage\" enabled=\"True\" />\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\2.2.100-preview2-009404\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:20:46.582, 17979403229792, testhost.dll, Execution started.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.587, 17979403280479, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.589, 17979403304034, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.591, 17979403321686, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.598, 17979403387079, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.601, 17979403420542, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter, from path: D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.605, 17979403456803, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.606, 17979403475145, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface, from path: D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.607, 17979403480433, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.608, 17979403494771, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices, from path: D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.623, 17979403645733, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.625, 17979403659418, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.625, 17979403661191, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.625, 17979403663301, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.625, 17979403665547, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.638, 17979403790517, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.645, 17979403865019, testhost.dll, TestExecutorExtensionManager: Loading executor Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestExecutor
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.646, 17979403866872, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:46.646, 17979403870430, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.648, 17979403895001, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.649, 17979403896460, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.649, 17979403898070, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.649, 17979403903000, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.649, 17979403904408, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.649, 17979403905441, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.650, 17979403907455, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.650, 17979403908649, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.652, 17979403926637, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.652, 17979403928082, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.714, 17979404551575, testhost.dll, TestDiscoveryManager: Discovering tests from sources D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.718, 17979404591453, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.718, 17979404593193, testhost.dll, TestPluginCache: Discovering the extensions using extension path.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:46.718, 17979404594721, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0,C:\Users\yize\.nuget\packages\microsoft.testplatform.testhost\15.8.0\lib\netstandard1.5
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.722, 17979404634516, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.723, 17979404636206, testhost.dll, TestPluginCache: Discoverers are 'Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.MSTestDiscoverer, Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.723, 17979404637312, testhost.dll, TestPluginCache: Executors are 'executor://MSTestAdapter/v2'.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.723, 17979404638282, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.723, 17979404639204, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:46.732, 17979404726178, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://MSTestAdapter/v2
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:20:47.415, 17979411564341, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob.TestGenerateStorage.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:20:47.505, 17979412457974, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:47.646, 17979413873306, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 9, 2019/07/03, 13:20:48.249, 17979419900957, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 28852, 9, 2019/07/03, 13:20:48.319, 17979420600086, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[],"TestRunStatistics":{"ExecutedTests":0,"Stats":{}},"ActiveTests":[{"Id":"eab171f2-af80-3744-75d3-b29081d2edf6","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob.TestGenerateStorage","DisplayName":"TestGenerateStorage","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]}]}}
+TpTrace Verbose: 0 : 28852, 9, 2019/07/03, 13:20:48.320, 17979420606610, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:48.647, 17979423883593, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:49.647, 17979433883389, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:50.648, 17979443893289, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.414, 17979451550394, testhost.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Utilities: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.415, 17979451562751, testhost.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Utilities: Failed to load assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.574, 17979453150177, testhost.dll, AssemblyResolver.OnResolve: System.Security.Permissions: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.575, 17979453161984, testhost.dll, AssemblyResolver.OnResolve: System.Security.Permissions: Failed to load assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.586, 17979453274137, testhost.dll, AssemblyResolver.OnResolve: System.Threading.AccessControl: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:20:51.588, 17979453286333, testhost.dll, AssemblyResolver.OnResolve: System.Threading.AccessControl: Failed to load assembly.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:51.649, 17979453903346, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:52.650, 17979463913602, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:53.651, 17979473923460, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:54.651, 17979483924090, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:55.652, 17979493933129, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:56.652, 17979503933081, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:57.653, 17979513943051, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:58.654, 17979523953564, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:20:59.655, 17979533963556, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:00.656, 17979543973566, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:01.656, 17979553973525, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:02.656, 17979563973514, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:03.656, 17979573973400, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:04.657, 17979583976853, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:05.657, 17979593984611, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:06.658, 17979603987066, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:07.658, 17979613991661, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:08.659, 17979623997423, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.185, 17979629254894, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob.TestGenerateStorage execution completed.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.187, 17979629280625, testhost.dll, InProgressTests is null
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.208, 17979629488600, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.209, 17979629499911, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob.TestGenerateStorage.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.217, 17979629575714, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.220, 17979629611551, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestGenerateStorage  Passed
+  Test Messages:
+  StdOutMsgs:
+Start validate poem.ttl
+[TTL Parser] Validate Result: Pass
+Start generate schema
+Successfully generate schema
+[Undefined Object] Validate Result: Pass
+[No Type Cell] Validate Result: Pass
+[Single Type Cell] Validate Result: Pass
+[Multi Type Cell] Validate Result: Pass
+All Pass
+Append single type done
+Loading ttl files
+Building entity type
+Processing triples
+Saving storage
+Generate storage done
+System.IO.IOException: The process cannot access the file 'D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\storageOut\storage\A\write_ahead_log\primary_storage_log_1.dat' because it is being used by another process.
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.Compression.ZipFileExtensions.DoCreateEntryFromFile(ZipArchive destination, String sourceFileName, String entryName, Nullable`1 compressionLevel)
+   at System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)
+   at System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)
+   at Microsoft.Carina.KG.DevStudio.Core.StorageGenerator.GenerateStorageJob.CompressDirectory(String versionName, DirectoryInfo directory)
+Compressed storage file(testversion) uploaded successfully
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.220, 17979629614497, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob.TestBuildOntologyBad.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:09.221, 17979629618549, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.244, 17979629850401, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Id":"eab171f2-af80-3744-75d3-b29081d2edf6","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob.TestGenerateStorage","DisplayName":"TestGenerateStorage","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.StorageGenerator.TestGenerateStorageJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"Start validate poem.ttl\r\n[TTL Parser] Validate Result: Pass\r\nStart generate schema\r\nSuccessfully generate schema\r\n[Undefined Object] Validate Result: Pass\r\n[No Type Cell] Validate Result: Pass\r\n[Single Type Cell] Validate Result: Pass\r\n[Multi Type Cell] Validate Result: Pass\r\nAll Pass\r\nAppend single type done\r\nLoading ttl files\r\nBuilding entity type\r\nProcessing triples\r\nSaving storage\r\nGenerate storage done\r\nSystem.IO.IOException: The process cannot access the file 'D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\storageOut\\storage\\A\\write_ahead_log\\primary_storage_log_1.dat' because it is being used by another process.\r\n   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)\r\n   at System.IO.Compression.ZipFileExtensions.DoCreateEntryFromFile(ZipArchive destination, String sourceFileName, String entryName, Nullable`1 compressionLevel)\r\n   at System.IO.Compression.ZipFile.DoCreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName, Nullable`1 compressionLevel, Boolean includeBaseDirectory, Encoding entryNameEncoding)\r\n   at System.IO.Compression.ZipFile.CreateFromDirectory(String sourceDirectoryName, String destinationArchiveFileName)\r\n   at Microsoft.Carina.KG.DevStudio.Core.StorageGenerator.GenerateStorageJob.CompressDirectory(String versionName, DirectoryInfo directory)\r\nCompressed storage file(testversion) uploaded successfully\r\n"}],"ComputerName":null,"Duration":"00:00:21.6117090","StartTime":"2019-07-03T13:20:47.5054341+08:00","EndTime":"2019-07-03T13:21:09.1767013+08:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[{"Id":"7d2736c6-e06d-82a0-c76d-76692f485585","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob.TestBuildOntologyBad","DisplayName":"TestBuildOntologyBad","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]}]}}
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.245, 17979629856842, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.249, 17979629903028, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.268, 17979630094544, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob.TestBuildOntologyBad execution completed.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.269, 17979630096918, testhost.dll, InProgressTests is null
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.273, 17979630137871, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.273, 17979630139881, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob.TestBuildOntologyBad.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.273, 17979630143226, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.274, 17979630144733, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestBuildOntologyBad  Passed
+  Test Messages:
+  StdOutMsgs:
+No Version determined
+OntologyType should not be empty
+Path a does not exist
+Path a does not exist
+Do not support current data file type
+Domain output path must be specified
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.274, 17979630146084, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertRdfsToTslJob.TestConvertRdfsToTsl.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.278, 17979630186633, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.335, 17979630758587, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertRdfsToTslJob.TestConvertRdfsToTsl execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.342, 17979630832798, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.343, 17979630835894, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertRdfsToTslJob.TestConvertRdfsToTsl.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.343, 17979630838464, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.343, 17979630840502, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestConvertRdfsToTsl  Passed' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.343, 17979630842500, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertXmlToRdfsJob.TestConvertXmlToRdfs.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.348, 17979630893431, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.416, 17979631569378, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertXmlToRdfsJob.TestConvertXmlToRdfs execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.422, 17979631626658, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.422, 17979631629066, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertXmlToRdfsJob.TestConvertXmlToRdfs.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.422, 17979631630740, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.422, 17979631632474, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestConvertXmlToRdfs  Passed
+  Test Messages:
+  StdOutMsgs:
+Start loading Satori ontology...
+Finished Loading Satori ontology! [0.012s]
+Ignore property mso:people__person__city_of_birth
+Ignore property mso:people__person__country_of_birth
+Ignore property mso:people__person__hometown
+Ignore property mso:people__person__quotation
+Ignore property mso:type__object__attribution
+Ignore property mso:type__object__composite_image
+Ignore property mso:type__object__image
+Ignore property mso:type__object__keyword
+Ignore property mso:type__object__localization
+Ignore property mso:type__object__popularity
+Ignore property mso:type__object__preferred_image
+Ignore property mso:type__object__ranking
+Ignore property mso:type__object__related_object
+Ignore property mso:type__object__related_object_external
+Ignore property mso:type__object__text
+Ignore property mso:type__object__text_passage
+Ignore property mso:type__object__tokenized_description
+Ignore property mso:type__object__webpage
+RDFS filepath = D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Rdfs.owl
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.422, 17979631634241, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestNode.TestAllNodeObject.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.426, 17979631671850, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.434, 17979631752117, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestNode.TestAllNodeObject execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.439, 17979631795615, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.439, 17979631798010, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestNode.TestAllNodeObject.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.439, 17979631799844, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.439, 17979631801459, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestAllNodeObject  Passed' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.439, 17979631802889, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestString2PropertyType.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.443, 17979631840815, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.449, 17979631898628, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestString2PropertyType execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.453, 17979631941515, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.453, 17979631943746, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestString2PropertyType.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.454, 17979631945332, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.454, 17979631946866, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestString2PropertyType  Passed' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.454, 17979631948274, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestGetNormalizedName.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.458, 17979631984602, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.458, 17979631994359, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestGetNormalizedName execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.463, 17979632035596, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.463, 17979632037944, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestGetNormalizedName.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.463, 17979632039536, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:09.463, 17979632040912, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestGetNormalizedName  Passed' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:09.463, 17979632042379, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:09.467, 17979632078523, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:09.659, 17979633997264, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:10.659, 17979643997977, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 10, 2019/07/03, 13:21:10.757, 17979644979081, testhost.dll, Sending test run statistics
+TpTrace Verbose: 0 : 28852, 10, 2019/07/03, 13:21:10.760, 17979645008990, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.StatsChange","Payload":{"NewTestResults":[{"TestCase":{"Id":"7d2736c6-e06d-82a0-c76d-76692f485585","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob.TestBuildOntologyBad","DisplayName":"TestBuildOntologyBad","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestBuildOntologyJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"No Version determined\r\nOntologyType should not be empty\r\nPath a does not exist\r\nPath a does not exist\r\nDo not support current data file type\r\nDomain output path must be specified\r\n"}],"ComputerName":null,"Duration":"00:00:00.0177898","StartTime":"2019-07-03T13:21:09.2502211+08:00","EndTime":"2019-07-03T13:21:09.2689271+08:00","Properties":[]},{"TestCase":{"Id":"eda58f74-f62b-84ee-367d-6e539d1e5a32","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertRdfsToTslJob.TestConvertRdfsToTsl","DisplayName":"TestConvertRdfsToTsl","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertRdfsToTslJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[],"ComputerName":null,"Duration":"00:00:00.0566289","StartTime":"2019-07-03T13:21:09.2783953+08:00","EndTime":"2019-07-03T13:21:09.3353654+08:00","Properties":[]},{"TestCase":{"Id":"ccb1b235-ef8f-894b-1602-51b17c7eba04","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertXmlToRdfsJob.TestConvertXmlToRdfs","DisplayName":"TestConvertXmlToRdfs","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestConvertXmlToRdfsJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"Start loading Satori ontology...\r\nFinished Loading Satori ontology! [0.012s]\r\nIgnore property mso:people__person__city_of_birth\r\nIgnore property mso:people__person__country_of_birth\r\nIgnore property mso:people__person__hometown\r\nIgnore property mso:people__person__quotation\r\nIgnore property mso:type__object__attribution\r\nIgnore property mso:type__object__composite_image\r\nIgnore property mso:type__object__image\r\nIgnore property mso:type__object__keyword\r\nIgnore property mso:type__object__localization\r\nIgnore property mso:type__object__popularity\r\nIgnore property mso:type__object__preferred_image\r\nIgnore property mso:type__object__ranking\r\nIgnore property mso:type__object__related_object\r\nIgnore property mso:type__object__related_object_external\r\nIgnore property mso:type__object__text\r\nIgnore property mso:type__object__text_passage\r\nIgnore property mso:type__object__tokenized_description\r\nIgnore property mso:type__object__webpage\r\nRDFS filepath = D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Rdfs.owl\r\n"}],"ComputerName":null,"Duration":"00:00:00.0666887","StartTime":"2019-07-03T13:21:09.3491848+08:00","EndTime":"2019-07-03T13:21:09.4164595+08:00","Properties":[]},{"TestCase":{"Id":"ef2e2866-3e45-e7e4-3d57-d21094d692b1","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestNode.TestAllNodeObject","DisplayName":"TestAllNodeObject","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestNode"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[],"ComputerName":null,"Duration":"00:00:00.0073622","StartTime":"2019-07-03T13:21:09.4269544+08:00","EndTime":"2019-07-03T13:21:09.4347284+08:00","Properties":[]},{"TestCase":{"Id":"da1be7e8-22b0-2a35-92cd-f22f61e5c768","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestString2PropertyType","DisplayName":"TestString2PropertyType","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[],"ComputerName":null,"Duration":"00:00:00.0052347","StartTime":"2019-07-03T13:21:09.4438559+08:00","EndTime":"2019-07-03T13:21:09.4493935+08:00","Properties":[]},{"TestCase":{"Id":"9f25e830-7932-32a0-e7fc-9588e998eb97","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils.TestGetNormalizedName","DisplayName":"TestGetNormalizedName","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestOBUtils"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[],"ComputerName":null,"Duration":"00:00:00.0005768","StartTime":"2019-07-03T13:21:09.4582286+08:00","EndTime":"2019-07-03T13:21:09.4589681+08:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":7,"Stats":{"Passed":7}},"ActiveTests":[{"Id":"762e1678-351d-b9f6-8972-7b79c95e6eee","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl","DisplayName":"TestCompilerTsl","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]}]}}
+TpTrace Verbose: 0 : 28852, 10, 2019/07/03, 13:21:10.761, 17979645018834, testhost.dll, TestRunCache: OnNewTestResult: Notified the onCacheHit callback.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:11.064, 17979648049829, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:11.065, 17979648061735, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.TestFramework.resources: Failed to load assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:11.096, 17979648373831, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources: Resolving assembly.
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:11.098, 17979648385538, testhost.dll, AssemblyResolver.OnResolve: Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources: Failed to load assembly.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.109, 17979648496953, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl execution completed.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.109, 17979648499719, testhost.dll, InProgressTests is null
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.115, 17979648564269, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.116, 17979648569665, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.116, 17979648572705, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.117, 17979648582550, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestCompilerTsl  Failed
+  Message: Assert.IsTrue failed. 
+TestCleanup method Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown threw exception. System.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\TSLExtension'..
+  StackTrace:
+   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl()
+
+TestCleanup Stack Trace
+   at System.IO.Win32FileSystem.RemoveDirectory(String fullPath, Boolean recursive)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown()
+
+  Test Messages:
+  StdOutMsgs:
+[Error] System.ArgumentException: Item has already been added. Key in dictionary: 'CODE_COVERAGE_SESSION_NAME'  Key being added: 'CODE_COVERAGE_SESSION_NAME'
+[Error]    at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+[Error]    at System.Environment.ToHashtable(IEnumerable`1 pairs)
+[Error]    at System.Environment.GetEnvironmentVariables()
+[Error]    at System.Diagnostics.ProcessStartInfo.get_Environment()
+[Error]    at Microsoft.DotNet.Cli.Utils.ForwardingAppImplementation.GetProcessStartInfo()
+[Error]    at Microsoft.DotNet.Cli.Utils.MSBuildForwardingAppWithoutLogging.GetProcessStartInfo()
+[Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.GetProcessStartInfo()
+[Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.Execute()
+[Error]    at Microsoft.DotNet.Tools.Restore.RestoreCommand.Run(String[] args)
+[Error]    at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, ITelemetry telemetryClient)
+[Error]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+[Error] 
+[Info] 
+Restore TslCompiler.Clr.csproj done
+publishProcess.ExitCode:1
+Publish TslCompiler.Clr.csproj done
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.118, 17979648585830, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidateDataJob.TestValidateData.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.123, 17979648641893, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.210, 17979649514381, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidateDataJob.TestValidateData execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.217, 17979649576176, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.217, 17979649579261, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidateDataJob.TestValidateData.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.217, 17979649581592, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.217, 17979649583554, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestValidateData  Passed
+  Test Messages:
+  StdOutMsgs:
+Start validate good.ttl
+[TTL Parser] Validate Result: Pass
+Start generate schema
+Successfully generate schema
+[Undefined Object] Validate Result: Pass
+[No Type Cell] Validate Result: Pass
+[Single Type Cell] Validate Result: Pass
+[Multi Type Cell] Validate Result: Pass
+All Pass
+Append single type done
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.218, 17979649585705, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestValidatorFactory.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.223, 17979649637580, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.299, 17979650398123, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestValidatorFactory execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.305, 17979650459981, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.305, 17979650463147, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestValidatorFactory.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.306, 17979650465376, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.306, 17979650467612, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestValidatorFactory  Passed' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.306, 17979650469544, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestParserValidator.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.311, 17979650522379, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.435, 17979651759447, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestParserValidator execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.442, 17979651824599, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.442, 17979651828333, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestParserValidator.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.442, 17979651830780, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.442, 17979651833288, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestParserValidator  Passed
+  Test Messages:
+  StdOutMsgs:
+[TTL Parser] Validate Result: Pass
+[TTL Parser] Validate Result: Fail
+VDS.RDF.Parsing.RdfParseException: [UriToken at Line 2 Column 2 to Line 2 Column 69] Unexpected Token 'VDS.RDF.Parsing.Tokens.UriToken' encountered while trying to parse an Object list, expected a comma, semicolon or dot to terminate the current Triple
+   at VDS.RDF.Parsing.TurtleParser.TryParseObjectList(TurtleParserContext context, INode subj, INode pred, Boolean bnodeList)
+   at VDS.RDF.Parsing.TurtleParser.TryParsePredicateObjectList(TurtleParserContext context, INode subj, Boolean bnodeList)
+   at VDS.RDF.Parsing.TurtleParser.Parse(TurtleParserContext context)
+   at VDS.RDF.Parsing.TurtleParser.Load(IRdfHandler handler, TextReader input)
+   at Microsoft.Carina.KG.DevStudio.Core.DataValidator.ParserValidator.Execute()
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.443, 17979651835766, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestMultiTypeCellValidator.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.448, 17979651885788, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.515, 17979652559908, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestMultiTypeCellValidator execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.520, 17979652613374, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.521, 17979652616123, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestMultiTypeCellValidator.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.521, 17979652618293, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.521, 17979652620259, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestMultiTypeCellValidator  Passed
+  Test Messages:
+  StdOutMsgs:
+[Multi Type Cell] Validate Result: Pass
+[Multi Type Cell] Validate Result: Fail
+http://knowledge.microsoft.com/573161c3-7de0-32f2-a51e-a9fb8b4da9a9 no type can cover all properties
+cell has type [people.gender|people.cause_of_death]
+[people.gender] does not contain property [people.person.date_of_birth|people.person.date_of_death|book.written_work.tag|people.person.zi]
+[people.cause_of_death] does not contain property [people.person.date_of_birth|people.person.date_of_death|book.written_work.tag|people.person.zi]
+
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.521, 17979652622209, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestNoTypeCellValidator.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.526, 17979652667671, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.598, 17979653394438, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestNoTypeCellValidator execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.607, 17979653478150, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.607, 17979653483097, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestNoTypeCellValidator.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.608, 17979653486537, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.608, 17979653489821, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestNoTypeCellValidator  Passed
+  Test Messages:
+  StdOutMsgs:
+[No Type Cell] Validate Result: Pass
+[No Type Cell] Validate Result: Fail
+Exist no type cell, please check
+http://knowledge.microsoft.com/0c77c34e-2c7f-3b92-8769-1bbb214afd6a
+
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.608, 17979653492354, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestSingleTypeCellValidator.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.613, 17979653543355, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:11.660, 17979654007591, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.677, 17979654182520, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestSingleTypeCellValidator execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.683, 17979654236442, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.683, 17979654239342, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestSingleTypeCellValidator.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.683, 17979654242525, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.684, 17979654245132, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestSingleTypeCellValidator  Passed
+  Test Messages:
+  StdOutMsgs:
+[Single Type Cell] Validate Result: Pass
+[Single Type Cell] Validate Result: Fail
+Exist undefined cell type or property, please check.
+http://knowledge.microsoft.com/0c77c34e-2c7f-3b92-8769-1bbb214afd6a
+[people__person] does not contain property [book.written_work.creation_time|book.written_work.author|book.written_work.contents|book.written_work.translation|book.written_work.tag]
+recommended type: [book.written_work]
+
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.684, 17979654247058, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestUndefinedObjectValidator.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.688, 17979654292356, testhost.dll, TestCaseEventsHandler.RaiseTestCaseStart: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseStartEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseStart(TestCaseStartEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.772, 17979655129610, testhost.dll, TestExecutionRecorder.RecordEnd: test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestUndefinedObjectValidator execution completed.
+TpTrace Error: 0 : 28852, 3, 2019/07/03, 13:21:11.779, 17979655196259, testhost.dll, TestCaseEventsHandler.RaiseTestCaseEnd: Exception occurred while calling handler of type Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager for TestCaseEndEventArgs: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveRawMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.SocketCommunicationManager.ReceiveMessage()
+   at Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.DataCollectionTestCaseEventSender.SendTestCaseEnd(TestCaseEndEventArgs e)
+   at Microsoft.VisualStudio.TestPlatform.CrossPlatEngine.DataCollection.ProxyOutOfProcDataCollectionManager.TriggerTestCaseEnd(Object sender, TestCaseEndEventArgs e)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at Microsoft.VisualStudio.TestPlatform.Utilities.MulticastDelegateUtilities.SafeInvoke(Delegate delegates, Object sender, EventArgs args, String traceDisplayName)
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.779, 17979655199707, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestUndefinedObjectValidator.
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.779, 17979655202491, testhost.dll, InProgressTests is null
+TpTrace Warning: 0 : 28852, 3, 2019/07/03, 13:21:11.780, 17979655204786, testhost.dll, TestRunCache: No test found corresponding to testResult 'TestUndefinedObjectValidator  Passed
+  Test Messages:
+  StdOutMsgs:
+[Undefined Object] Validate Result: Pass
+[Undefined Object] Validate Result: Fail
+Exist undefined object, please check.
+http://knowledge.microsoft.com/073161c3-7de0-32f2-a51e-a9fb8b4da9a9
+
+' in inProgress list.
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.782, 17979655226429, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://MSTestAdapter/v2
+TpTrace Information: 0 : 28852, 3, 2019/07/03, 13:21:11.792, 17979655328606, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.822, 17979655632492, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":15,"Stats":{"Passed":14,"Failed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:25.0556814","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"762e1678-351d-b9f6-8972-7b79c95e6eee","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl","DisplayName":"TestCompilerTsl","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":2,"ErrorMessage":"Assert.IsTrue failed. \r\nTestCleanup method Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown threw exception. System.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\TSLExtension'..","ErrorStackTrace":"   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl()\r\n\r\nTestCleanup Stack Trace\r\n   at System.IO.Win32FileSystem.RemoveDirectory(String fullPath, Boolean recursive)\r\n   at System.IO.Directory.Delete(String path, Boolean recursive)\r\n   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown()\r\n","DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[Error] System.ArgumentException: Item has already been added. Key in dictionary: 'CODE_COVERAGE_SESSION_NAME'  Key being added: 'CODE_COVERAGE_SESSION_NAME'\r\n[Error]    at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)\r\n[Error]    at System.Environment.ToHashtable(IEnumerable`1 pairs)\r\n[Error]    at System.Environment.GetEnvironmentVariables()\r\n[Error]    at System.Diagnostics.ProcessStartInfo.get_Environment()\r\n[Error]    at Microsoft.DotNet.Cli.Utils.ForwardingAppImplementation.GetProcessStartInfo()\r\n[Error]    at Microsoft.DotNet.Cli.Utils.MSBuildForwardingAppWithoutLogging.GetProcessStartInfo()\r\n[Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.GetProcessStartInfo()\r\n[Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.Execute()\r\n[Error]    at Microsoft.DotNet.Tools.Restore.RestoreCommand.Run(String[] args)\r\n[Error]    at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, ITelemetry telemetryClient)\r\n[Error]    at Microsoft.DotNet.Cli.Program.Main(String[] args)\r\n[Error] \r\n[Info] \r\nRestore TslCompiler.Clr.csproj done\r\npublishProcess.ExitCode:1\r\nPublish TslCompiler.Clr.csproj done\r\n"}],"ComputerName":null,"Duration":"00:00:01.6399536","StartTime":"2019-07-03T13:21:09.46761+08:00","EndTime":"2019-07-03T13:21:11.1092107+08:00","Properties":[]},{"TestCase":{"Id":"9fbc41f3-bf3f-3098-1908-43d5429db68a","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidateDataJob.TestValidateData","DisplayName":"TestValidateData","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidateDataJob"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"Start validate good.ttl\r\n[TTL Parser] Validate Result: Pass\r\nStart generate schema\r\nSuccessfully generate schema\r\n[Undefined Object] Validate Result: Pass\r\n[No Type Cell] Validate Result: Pass\r\n[Single Type Cell] Validate Result: Pass\r\n[Multi Type Cell] Validate Result: Pass\r\nAll Pass\r\nAppend single type done\r\n"}],"ComputerName":null,"Duration":"00:00:00.0862141","StartTime":"2019-07-03T13:21:11.1240613+08:00","EndTime":"2019-07-03T13:21:11.2109619+08:00","Properties":[]},{"TestCase":{"Id":"00594a85-df0b-2648-1e06-3414ad64beda","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestValidatorFactory","DisplayName":"TestValidatorFactory","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[],"ComputerName":null,"Duration":"00:00:00.0751250","StartTime":"2019-07-03T13:21:11.2236091+08:00","EndTime":"2019-07-03T13:21:11.2993458+08:00","Properties":[]},{"TestCase":{"Id":"61e4cfab-0666-d49b-1f5f-084a1e2bd4d1","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestParserValidator","DisplayName":"TestParserValidator","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[TTL Parser] Validate Result: Pass\r\n[TTL Parser] Validate Result: Fail\r\nVDS.RDF.Parsing.RdfParseException: [UriToken at Line 2 Column 2 to Line 2 Column 69] Unexpected Token 'VDS.RDF.Parsing.Tokens.UriToken' encountered while trying to parse an Object list, expected a comma, semicolon or dot to terminate the current Triple\r\n   at VDS.RDF.Parsing.TurtleParser.TryParseObjectList(TurtleParserContext context, INode subj, INode pred, Boolean bnodeList)\r\n   at VDS.RDF.Parsing.TurtleParser.TryParsePredicateObjectList(TurtleParserContext context, INode subj, Boolean bnodeList)\r\n   at VDS.RDF.Parsing.TurtleParser.Parse(TurtleParserContext context)\r\n   at VDS.RDF.Parsing.TurtleParser.Load(IRdfHandler handler, TextReader input)\r\n   at Microsoft.Carina.KG.DevStudio.Core.DataValidator.ParserValidator.Execute()\r\n"}],"ComputerName":null,"Duration":"00:00:00.1231402","StartTime":"2019-07-03T13:21:11.3120895+08:00","EndTime":"2019-07-03T13:21:11.4354751+08:00","Properties":[]},{"TestCase":{"Id":"2fed9e38-cc9c-a317-7716-182586e3dcf5","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestMultiTypeCellValidator","DisplayName":"TestMultiTypeCellValidator","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[Multi Type Cell] Validate Result: Pass\r\n[Multi Type Cell] Validate Result: Fail\r\nhttp://knowledge.microsoft.com/573161c3-7de0-32f2-a51e-a9fb8b4da9a9 no type can cover all properties\ncell has type [people.gender|people.cause_of_death]\n[people.gender] does not contain property [people.person.date_of_birth|people.person.date_of_death|book.written_work.tag|people.person.zi]\n[people.cause_of_death] does not contain property [people.person.date_of_birth|people.person.date_of_death|book.written_work.tag|people.person.zi]\n\r\n"}],"ComputerName":null,"Duration":"00:00:00.0668963","StartTime":"2019-07-03T13:21:11.4484036+08:00","EndTime":"2019-07-03T13:21:11.5155263+08:00","Properties":[]},{"TestCase":{"Id":"e3acfac6-1043-60bb-f3c4-f4a5b11e80d8","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestNoTypeCellValidator","DisplayName":"TestNoTypeCellValidator","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[No Type Cell] Validate Result: Pass\r\n[No Type Cell] Validate Result: Fail\r\nExist no type cell, please check\r\nhttp://knowledge.microsoft.com/0c77c34e-2c7f-3b92-8769-1bbb214afd6a\n\r\n"}],"ComputerName":null,"Duration":"00:00:00.0721725","StartTime":"2019-07-03T13:21:11.5265759+08:00","EndTime":"2019-07-03T13:21:11.5989744+08:00","Properties":[]},{"TestCase":{"Id":"b910142d-645e-7d0e-d9ff-f52aea94741e","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestSingleTypeCellValidator","DisplayName":"TestSingleTypeCellValidator","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[Single Type Cell] Validate Result: Pass\r\n[Single Type Cell] Validate Result: Fail\r\nExist undefined cell type or property, please check.\r\nhttp://knowledge.microsoft.com/0c77c34e-2c7f-3b92-8769-1bbb214afd6a\n[people__person] does not contain property [book.written_work.creation_time|book.written_work.author|book.written_work.contents|book.written_work.translation|book.written_work.tag]\nrecommended type: [book.written_work]\n\r\n"}],"ComputerName":null,"Duration":"00:00:00.0633727","StartTime":"2019-07-03T13:21:11.6141534+08:00","EndTime":"2019-07-03T13:21:11.6777874+08:00","Properties":[]},{"TestCase":{"Id":"0edca54b-e7b8-e96a-3c50-a72295a63913","FullyQualifiedName":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators.TestUndefinedObjectValidator","DisplayName":"TestUndefinedObjectValidator","ExecutorUri":"executor://MSTestAdapter/v2","Source":"D:\\projects\\DevStudio\\DevStudio.Core.UnitTest\\bin\\Debug\\netcoreapp2.0\\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll","CodeFilePath":null,"LineNumber":-1,"Properties":[{"Key":{"Id":"MSTestDiscoverer.TestClassName","Label":"ClassName","Category":"","Description":"","Attributes":1,"ValueType":"System.String"},"Value":"Microsoft.Carina.KG.DevStudio.Core.UnitTest.DataValidator.TestValidators"},{"Key":{"Id":"TestObject.Traits","Label":"Traits","Category":"","Description":"","Attributes":5,"ValueType":"System.Collections.Generic.KeyValuePair`2[[System.String],[System.String]][]"},"Value":[]}]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":null,"Messages":[{"Category":"StdOutMsgs","Text":"[Undefined Object] Validate Result: Pass\r\n[Undefined Object] Validate Result: Fail\r\nExist undefined object, please check.\r\nhttp://knowledge.microsoft.com/073161c3-7de0-32f2-a51e-a9fb8b4da9a9\n\r\n"}],"ComputerName":null,"Duration":"00:00:00.0763220","StartTime":"2019-07-03T13:21:11.6890442+08:00","EndTime":"2019-07-03T13:21:11.7656105+08:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":15,"Stats":{"Passed":14,"Failed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://mstestadapter/v2"]}}
+TpTrace Verbose: 0 : 28852, 3, 2019/07/03, 13:21:11.824, 17979655652105, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:11.827, 17979655682521, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: 127.0.0.1:50139 localEndPoint: 127.0.0.1:50140
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:21:11.828, 17979655689259, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:21:11.828, 17979655691715, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:21:11.830, 17979655704604, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050139
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:21:11.830, 17979655707780, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:21:11.830, 17979655704702, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:050139
+TpTrace Verbose: 0 : 28852, 1, 2019/07/03, 13:21:11.830, 17979655713522, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 28852, 1, 2019/07/03, 13:21:11.831, 17979655718397, testhost.dll, Testhost process exiting.
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:21:11.830, 17979655713960, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 28852, 8, 2019/07/03, 13:21:11.832, 17979655734448, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 28852, 8, 2019/07/03, 13:21:11.833, 17979655736573, testhost.dll, Closing the connection !

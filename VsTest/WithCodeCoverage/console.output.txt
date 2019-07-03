@@ -1,0 +1,71 @@
+Build started, please wait...
+DataImporter\TestImportDataJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataImporter\TestImportDataJob.cs(83,9): warning SA1005: Single line comment must begin with a space. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataImporter\TestImportDataJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataValidator\TestValidateDataJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataValidator\TestValidateDataJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataValidator\TestValidators.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+DataValidator\TestValidators.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestBuildOntologyJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestBuildOntologyJob.cs(63,9): warning SA1005: Single line comment must begin with a space. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestBuildOntologyJob.cs(80,9): warning SA1005: Single line comment must begin with a space. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestBuildOntologyJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestConvertRdfsToTslJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestConvertRdfsToTslJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestConvertXmlToRdfsJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestConvertXmlToRdfsJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestNode.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestNode.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestOBUtils.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestOBUtils.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestTslCompilerJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+OntologyBuilder\TestTslCompilerJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+StorageGenerator\TestGenerateStorageJob.cs(1,1): warning SA1633: The file header is missing or not located at the top of the file. [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+Build completed.
+
+StorageGenerator\TestGenerateStorageJob.cs(1,1): warning SA1652: Enable XML documentation output [D:\projects\DevStudio\DevStudio.Core.UnitTest\DevStudio.Core.UnitTest.csproj]
+Test run for D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.Carina.KG.DevStudio.Core.UnitTest.dll(.NETCoreApp,Version=v2.0)
+Microsoft (R) Test Execution Command Line Tool Version 15.9.0-preview-20180807-05
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Logging Vstest Diagnostics in file: D:\projects\DevStudio\DevStudio.Core.UnitTest\log.txt
+Failed   TestCompilerTsl
+Error Message:
+ Assert.IsTrue failed.
+TestCleanup method Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown threw exception. System.IO.DirectoryNotFoundException: System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\projects\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\TSLExtension'..
+Stack Trace:
+   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TestCompilerTsl()
+
+TestCleanup Stack Trace
+   at System.IO.Win32FileSystem.RemoveDirectory(String fullPath, Boolean recursive)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Microsoft.Carina.KG.DevStudio.Core.UnitTest.OntologyBuilder.TestTslCompilerJob.TearDown()
+
+Standard Output Messages:
+ [Error] System.ArgumentException: Item has already been added. Key in dictionary: 'CODE_COVERAGE_SESSION_NAME'  Key being added: 'CODE_COVERAGE_SESSION_NAME'
+ [Error]    at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+ [Error]    at System.Environment.ToHashtable(IEnumerable`1 pairs)
+ [Error]    at System.Environment.GetEnvironmentVariables()
+ [Error]    at System.Diagnostics.ProcessStartInfo.get_Environment()
+ [Error]    at Microsoft.DotNet.Cli.Utils.ForwardingAppImplementation.GetProcessStartInfo()
+ [Error]    at Microsoft.DotNet.Cli.Utils.MSBuildForwardingAppWithoutLogging.GetProcessStartInfo()
+ [Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.GetProcessStartInfo()
+ [Error]    at Microsoft.DotNet.Tools.MSBuild.MSBuildForwardingApp.Execute()
+ [Error]    at Microsoft.DotNet.Tools.Restore.RestoreCommand.Run(String[] args)
+ [Error]    at Microsoft.DotNet.Cli.Program.ProcessArgs(String[] args, ITelemetry telemetryClient)
+ [Error]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+ [Error]
+ [Info]
+ Restore TslCompiler.Clr.csproj done
+ publishProcess.ExitCode:1
+ Publish TslCompiler.Clr.csproj done
+
+
+
+Attachments:
+  D:\projects\DevStudio\DevStudio.Core.UnitTest\TestResults\7a65979c-a5d7-4120-9f6f-662239820db5\yize_STCVM-G17_2019-07-03.13_20_45.coverage
+
+Total tests: 15. Passed: 14. Failed: 1. Skipped: 0.
+Test Run Failed.
+Test execution time: 26.8916 Seconds
