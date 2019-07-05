@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>$(AssemblyName)</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="dotNetRDF" Version="2.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <TslCodegen Include = "$(TSLPath)" />
+  </ItemGroup>
+</Project>

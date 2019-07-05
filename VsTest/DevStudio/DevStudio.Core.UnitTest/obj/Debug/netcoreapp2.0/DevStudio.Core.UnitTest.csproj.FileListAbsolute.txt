@@ -1,0 +1,15 @@
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.deps.json
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.runtimeconfig.json
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.runtimeconfig.dev.json
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.dll
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.pdb
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.csprojAssemblyReference.cache
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.AssemblyInfoInputs.cache
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.AssemblyInfo.cs
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.dll
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.0\DevStudio.Core.UnitTest.pdb
+C:\Users\yize\source\repos\DevStudio\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.0\Compiler.csproj

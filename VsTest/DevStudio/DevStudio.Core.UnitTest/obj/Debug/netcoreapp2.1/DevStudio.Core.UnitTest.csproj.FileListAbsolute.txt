@@ -1,0 +1,11 @@
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.deps.json
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.dll
+c:\users\yize\source\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.csproj.CoreCompileInputs.cache
+c:\users\yize\source\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.AssemblyInfoInputs.cache
+c:\users\yize\source\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.AssemblyInfo.cs
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.runtimeconfig.json
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.runtimeconfig.dev.json
+c:\users\yize\source\DevStudio.Core.UnitTest\obj\Debug\netcoreapp2.1\DevStudio.Core.UnitTest.csprojAssemblyReference.cache
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\yize\source\DevStudio.Core.UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
