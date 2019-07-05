@@ -5820,11 +5820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yize\\source\\repos\\DevStudio\\DevStudio.Core.UnitTest\\DevStudio.Core.UnitTest.csproj",
+      "projectUniqueName": "D:\\projects\\yize\\Issue\\VsTest\\DevStudio\\DevStudio.Core.UnitTest\\DevStudio.Core.UnitTest.csproj",
       "projectName": "DevStudio.Core.UnitTest",
-      "projectPath": "C:\\Users\\yize\\source\\repos\\DevStudio\\DevStudio.Core.UnitTest\\DevStudio.Core.UnitTest.csproj",
+      "projectPath": "D:\\projects\\yize\\Issue\\VsTest\\DevStudio\\DevStudio.Core.UnitTest\\DevStudio.Core.UnitTest.csproj",
       "packagesPath": "C:\\Users\\yize\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yize\\source\\repos\\DevStudio\\DevStudio.Core.UnitTest\\obj\\",
+      "outputPath": "D:\\projects\\yize\\Issue\\VsTest\\DevStudio\\DevStudio.Core.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
